@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Random quotes!</title>
+</head>
+<body>
+	<h2>Write the quotes you want!</h2>
+	<form action="/submitQuotes" method="get">
+		<input type="text" name="userMessage1"/> <br>
+		<input type="text" name="userMessage2"/>	<br>
+		<input type="text" name="userMessage3"/>	<br>
+		<input type="submit" value="Upload quotes"/>
+	</form>
+
+	<h2>Delete all previous quotes!</h2>
+	<form action="/deleteQuotes" method="get">
+		<input type="submit" value="Delete quotes"/>
+	</form>
+	
+	<h2>Or just go directly to previous quotes</h2>
+	<form action="/getQuotes" method="get">
+		<input type="submit" value="Get quotes">
+	</form>
+</body>
+</html>
