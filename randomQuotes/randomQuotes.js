@@ -9,7 +9,7 @@ app.set('port', 8888);
 
 // Display the html file
 app.get('/', function (req, res) {
-	res.sendfile('./randomMessages.html');
+	res.sendfile('./randomQuotes.html');
 });
 
 // Uploads quotes to the db
